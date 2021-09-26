@@ -1,5 +1,4 @@
 #!/usr/bin/bash
 
-npm install
-npm audit fix
-node index.js
+npm i instatouch
+node .
