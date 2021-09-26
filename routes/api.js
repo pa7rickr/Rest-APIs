@@ -1,4 +1,4 @@
-﻿__path = process.cwd()
+__path = process.cwd()
 var favicon = require('serve-favicon');
 var express = require('express');
 var db = require(__path + '/database/db');
@@ -49,12 +49,12 @@ var {
 	pCoffeCup,
 	pLoveText,
 	pButterfly
-} = require("./../lib/utils/photooxy");
+} = require(__path + "/lib/utils/photooxy");
 
 var {
 	igStalk,
 	igDownload
-} = require("./../lib/utils/ig");
+} = require(__path + "/lib/utils/ig");
 
 var {
 	ytDonlodMp3,
@@ -62,25 +62,25 @@ var {
 	ytPlayMp3,
 	ytPlayMp4,
 	ytSearch
-} = require("./../lib/utils/yt");
+} = require(__path + "/lib/utils/yt");
 
 var {
 	Joox,
 	FB,
 	Tiktok
-} = require("./../lib/utils/downloader");
+} = require(__path + "/lib/utils/downloader");
 
 var {
 	Cuaca,
 	Lirik
-} = require('./../lib/utils/information');
+} = require(__path + '/lib/utils/information');
 
 var {
 	Base,
 	WPUser
-} = require('./../lib/utils/tools');
+} = require(__path + '/lib/utils/tools');
 
-var tebakGambar = require('./../lib/utils/tebakGambar');
+var tebakGambar = require(__path + '/lib/utils/tebakGambar');
 
 var cookie = process.env.COOCKIE
 /*
