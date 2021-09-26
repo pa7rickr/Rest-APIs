@@ -1,1 +1,1 @@
-web: node .
+web: bash install.sh
